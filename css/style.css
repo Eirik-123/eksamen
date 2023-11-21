@@ -2,7 +2,17 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header, main, footer {
+.navbar li a{
+    color: #000;
+    padding: 0.5rem;
+    font-weight: 700;
+    
+}
+header nav{
+    align-items: center;
+}
+
+header, main, footer { /* kanskje endre/fjerne senere*/
     padding: 1rem;
 }
 
@@ -65,9 +75,62 @@ section article{
 section{
     text-align: center;
 }
+h2{
+    text-align: center;  /* må vurder senere*/
+}
+
+.flex-section3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.flex-section3 h2{
+    width: 100%;
+    text-align: center;
+}
+
+.flex-section5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #252525;
+    font-size: x-large;
+    font-weight: 700;
+    
+    
+}
+
+
+
+.flex-section5 h3 {
+    align-self: center;
+    color: #fff;
+}
+
+.flex-section5 nav{
+    align-self: center;
+    
+}
+
+.flex-section5 a{
+    color: #fff;
+}
+
+#monkey{
+    background-image: url("https://placehold.co/400x400");
+    text-align: center;
+    padding: 7rem;
+}
+
+
+
 
 @media only screen and (min-width: 600px) {
-    /* Endrer grid-malen for bredere skjermer */
+
     #grid-container {
         grid-template-areas: "header header header" "main main main" "footer footer footer";
     }
@@ -80,7 +143,10 @@ section{
         display: flex;
         justify-content: space-between;
         position: relative;
+        
     }
+
+    
     
     .flex-section1{
         display: flex;
@@ -109,18 +175,45 @@ section{
         font-size: 3rem;
     }
 
-    .flex-section2{
+    .flex-section2{  /* kan endre senere*/
         display: flex;
         flex-direction: row;
         text-align: center;
-        justify-content: space-evenly;
+        justify-content: center;
         border-style: solid;
+        align-items: center;
+        padding-right: 25rem;
+        
         
     }
 
+    .section4{
+        padding: 3rem;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color:#eeeeee
+        
+        
+        
+        
+
+    }
+
+    .section4 h2{
+        width: 100%;
+        text-align: center;
+    }
 
     
     
-
     
+    
+   
+
+
+
+
+      
 }
