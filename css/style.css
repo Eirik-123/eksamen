@@ -37,6 +37,7 @@ nav ul li a{
 } */
 
 
+
 header{
     grid-area: header;
 }
@@ -59,6 +60,24 @@ footer{
     font-weight: 700;
 }
 
+.white-btn {
+    display: inline-block;
+    padding: 1rem;
+    text-decoration: none;
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    font-weight: 500;
+    border-style: solid;
+    font-size: 20px;
+    
+}
+
+.white{
+    display: flex;
+    gap: 1rem;
+}
+
 header{
     text-align: center;
     text-decoration: none;
@@ -72,12 +91,18 @@ section article{
     background-color: aquamarine;
 }
 
-section{
+#lion{
     text-align: center;
 }
-h2{
-    text-align: center;  /* må vurder senere*/
-}
+
+
+/* section{
+    text-align: center; vurdere senere må vurder om all sections skal ha padding 
+} */
+
+/*h2{
+    text-align: center;   må vurder senere
+} */
 
 .flex-section3{
     display: flex;
@@ -206,14 +231,20 @@ h2{
         text-align: center;
     }
 
-    
-    
-    
-    
    
+    
+    
+    .line {
+        border-bottom: 2px solid #e6bd43;
+      }
+     
+    .flex-product1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 1px;
+       
+    }
 
-
-
-
-      
+     
 }
