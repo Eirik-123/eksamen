@@ -87,9 +87,6 @@ section article{
     display: inline-block
 }
 
-.swag{
-    background-color: aquamarine;
-}
 
 #lion{
     text-align: center;
@@ -112,9 +109,10 @@ section article{
     
 }
 
-.flex-section3 h2{
+.flex-section3 h2{  /* about og index har forskjellig font størellse endre senere */
     width: 100%;
     text-align: center;
+    font-size: 3rem;
 }
 
 .flex-section5{
@@ -242,9 +240,71 @@ section article{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        gap: 1px;
+        gap: 2rem;
+        
+    }
+
+    .about-section1{
+        display: flex;
+        background-image: url("https://placehold.co/400x400");
+        justify-content: end;
+        padding-right: 5rem;
        
     }
+
+    .about-section1 article{
+        background-color: #fff;
+        padding: 2rem;
+    }
+    
+
+    .about-section2{
+        background-color: #e6bd43;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 3rem;
+        
+    }
+
+    .about-section2 h2{
+        text-align: center;
+        font-size: 2.5rem;
+        
+    }
+
+    .about-section2 nav ul li {
+        padding: 1rem;
+    }
+
+    #boo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        background-color: #eeeeee;   
+        
+    }
+    
+    #boo h2{
+        width: 100%;
+        text-align: center;
+        font-size: 3rem;
+
+    }
+
+    .flex-product1 article img{
+        width: 100%;
+
+    }
+
+    .flex-product1 article{
+        flex-grow: 2;
+        max-width: 692px;
+    }
+
+
 
      
 }
