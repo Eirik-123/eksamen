@@ -12,7 +12,7 @@ header nav{
     align-items: center;
 }
 
-header, main, footer { /* kanskje endre/fjerne senere*/
+header { /* kanskje endre/fjerne senere*/
     padding: 1rem;
 }
 
@@ -76,6 +76,11 @@ footer{
 .white{
     display: flex;
     gap: 1rem;
+    
+}
+
+.white li a{
+    color: #000;
 }
 
 header{
@@ -106,6 +111,7 @@ section article{
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+    padding: 3rem;
     
 }
 
@@ -148,6 +154,9 @@ section article{
     text-align: center;
     padding: 7rem;
 }
+
+
+
 
 
 
@@ -211,7 +220,7 @@ section article{
     }
 
     .section4{
-        padding: 3rem;
+        padding: 5rem;
         display: flex;
         flex-direction: row-reverse;
         justify-content: center;
@@ -304,6 +313,23 @@ section article{
         max-width: 692px;
     }
 
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 30rem;
+        gap: 1rem;
+        font-size:large;
+    }
+
+    #boo article nav ul li{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        
+        
+    }
+
+    
 
 
      
