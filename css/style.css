@@ -155,6 +155,9 @@ section article{
     padding: 7rem;
 }
 
+iframe{
+    max-width: 100%;
+}
 
 
 
