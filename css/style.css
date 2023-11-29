@@ -1,6 +1,9 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Inter', sans-serif;
+    max-width: 1600px;
 }
+
+
 
 .navbar li a{
     color: #000;
@@ -112,6 +115,7 @@ section article{
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 3rem;
+    text-align: center;
     
 }
 
@@ -158,6 +162,31 @@ section article{
 iframe{
     max-width: 100%;
 }
+
+.links ul li a{
+    color: #fff; 
+    font-size: 2rem;
+    padding: 1rem;
+    
+}
+
+i{
+    
+    text-align: center;
+    font-size: 2rem;
+}
+
+.flex-product1 article{
+    max-width: 350px;
+    min-width: 200px;
+}
+
+/*.flex-product1 article img{
+    max-width: 350px;
+    min-width: 200px;
+} */
+
+
 
 
 
